@@ -1,5 +1,5 @@
-#Practice
+# Practice
 solution to https://cses.fi/problemset/
-#books
+# books
 Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests 
 clrs
