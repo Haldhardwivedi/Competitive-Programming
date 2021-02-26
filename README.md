@@ -9,6 +9,6 @@
 ### Dynamic Programming https://www.youtube.com/watch?v=nqowUJzG-iM&list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go  </br>
 ### Guide to Competitive Programming_ Learning and Improving Algorithms Through Contests  </br>
 ### clrs </br>
-
+# Contribution
 ### this respo contains resources for anyone who wanna get started in competitive programming
-### for  contribution mail me haldhardwivedi@gmail.com
+### for contribution mail me haldhardwivedi@gmail.com
