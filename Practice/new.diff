@@ -1,0 +1,45 @@
+--- pr39.cpp	2021-11-09 18:12:35.635417831 +0530
++++ pr40.cpp	2021-11-09 18:12:38.595502233 +0530
+@@ -29,17 +29,40 @@
+ const int N = 3e5;
+ 
+ 
++int bs(int left,int right,int *a,int x)
++{
++    if(left>right)
++    return(-1);
++    int mid=left+right;
++    mid=mid/2;
++    if(a[mid]==x)
++    {
++        return(mid);
++    }
++    else if(a[mid]>x) 
++    {
++        right=mid-1;
++        return(bs(left,right,a,x));
++    }
++    else 
++    {
++        left=mid+1;
++        return(bs(left,right,a,x));
++    }
++}
+ 
+ void solve() 
+ {
+-
++    int a[6]={10,11,22,33,44,55};
++    int n=6;
++    cout<<bs(0,5,a,66)<<endl;
+ }
+ 
+ 
+ int main() 
+ {
+     ll int t = 1;
+-    sl(t);
++    //sl(t);
+     while(t--) 
+     {
+         solve();
